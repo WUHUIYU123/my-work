@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="231.0" prefWidth="443.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginController">
+   <children>
+      <TextField fx:id="text_1" layoutX="121.0" layoutY="56.0" />
+      <Button fx:id="but_1" layoutX="81.0" layoutY="141.0" mnemonicParsing="false" onAction="#actionPerformed1" text="教师登录" />
+      <Button fx:id="but_2" layoutX="283.0" layoutY="141.0" mnemonicParsing="false" onAction="#actionPerformed" text="学生登录" />
+      <Label layoutX="139.0" layoutY="20.0" prefHeight="20.0" prefWidth="166.0" text="欢迎使用签到管理系统" textAlignment="CENTER" textOverrun="CLIP" />
+      <Label layoutX="38.0" layoutY="61.0" text="用户名" />
+      <Label layoutX="38.0" layoutY="107.0" text="密码" />
+      <Button fx:id="but_3" layoutX="276.0" layoutY="181.0" mnemonicParsing="false" onAction="#actionPerformed2" text="管理员登录" />
+      <Button fx:id="but_4" layoutX="81.0" layoutY="181.0" mnemonicParsing="false" onAction="#actionPerformed3" text="修改密码" />
+      <PasswordField fx:id="text_2" layoutX="121.0" layoutY="102.0" />
+   </children>
+</AnchorPane>

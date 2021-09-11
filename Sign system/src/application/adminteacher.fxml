@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="118.0" prefWidth="392.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.adminteacherController">
+   <children>
+      <Button fx:id="but_1" layoutX="14.0" layoutY="44.0" mnemonicParsing="false" onAction="#fresh" text="更改教师密码" />
+      <Button fx:id="but_3" layoutX="281.0" layoutY="44.0" mnemonicParsing="false" onAction="#del" text="删除教师" />
+      <Button fx:id="but_2" layoutX="156.0" layoutY="44.0" mnemonicParsing="false" onAction="#add" text="添加教师" />
+   </children>
+</AnchorPane>

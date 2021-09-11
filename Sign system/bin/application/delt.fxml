@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="121.0" prefWidth="423.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.deltController">
+   <children>
+      <TextField fx:id="text" layoutX="185.0" layoutY="31.0" />
+      <Label layoutX="25.0" layoutY="36.0" text="请输入删除的教师账号" />
+      <Button fx:id="but" layoutX="161.0" layoutY="77.0" mnemonicParsing="false" onAction="#but1" text="确定" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="101.0" prefWidth="235.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.tipsController">
+   <children>
+      <Label layoutX="79.0" layoutY="18.0" text="修改成功" />
+      <Button fx:id="but" layoutX="84.0" layoutY="51.0" mnemonicParsing="false" onAction="#but1" text="确定" />
+   </children>
+</AnchorPane>

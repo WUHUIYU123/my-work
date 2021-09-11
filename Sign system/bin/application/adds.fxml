@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="193.0" prefWidth="407.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.addsController">
+   <children>
+      <Label layoutX="55.0" layoutY="25.0" text="姓名" />
+      <Label layoutX="55.0" layoutY="68.0" text="学号" />
+      <Label layoutX="55.0" layoutY="110.0" text="密码" />
+      <TextField fx:id="text1" layoutX="140.0" layoutY="20.0" />
+      <TextField fx:id="text2" layoutX="140.0" layoutY="63.0" />
+      <TextField fx:id="text3" layoutX="140.0" layoutY="105.0" />
+      <Button fx:id="but" layoutX="146.0" layoutY="149.0" mnemonicParsing="false" onAction="#but1" text="确定" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="135.0" prefWidth="336.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.studentController">
+   <children>
+      <Button layoutX="14.0" layoutY="78.0" mnemonicParsing="false" onAction="#but3" prefHeight="30.0" prefWidth="124.0" text="签到" />
+      <Button layoutX="186.0" layoutY="78.0" mnemonicParsing="false" onAction="#but4" prefHeight="30.0" prefWidth="110.0" text="请假" />
+      <TextField fx:id="t1" editable="false" layoutX="14.0" layoutY="14.0" prefHeight="30.0" prefWidth="264.0" text="欢迎使用签到系统，请及时签到" />
+   </children>
+</AnchorPane>
